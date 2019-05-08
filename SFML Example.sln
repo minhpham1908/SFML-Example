@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML Window", "SFML Time\SFML Time.vcxproj", "{4AFC32A3-5E24-4F70-8B08-9AD0DAE2997D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML Time", "SFML Time\SFML Time.vcxproj", "{4AFC32A3-5E24-4F70-8B08-9AD0DAE2997D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VOIP", "VOIP\VOIP.vcxproj", "{A61E5031-A52D-41B7-A285-DB4890F45F4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{4AFC32A3-5E24-4F70-8B08-9AD0DAE2997D}.Release|x64.Build.0 = Release|x64
 		{4AFC32A3-5E24-4F70-8B08-9AD0DAE2997D}.Release|x86.ActiveCfg = Release|Win32
 		{4AFC32A3-5E24-4F70-8B08-9AD0DAE2997D}.Release|x86.Build.0 = Release|Win32
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Debug|x64.ActiveCfg = Debug|x64
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Debug|x64.Build.0 = Debug|x64
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Debug|x86.Build.0 = Debug|Win32
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Release|x64.ActiveCfg = Release|x64
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Release|x64.Build.0 = Release|x64
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Release|x86.ActiveCfg = Release|Win32
+		{A61E5031-A52D-41B7-A285-DB4890F45F4B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
