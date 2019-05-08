@@ -31,7 +31,6 @@ public: /** API **/
 	// Initialise capturing input & setup output
 	void start() {
 		sf::SoundRecorder::start();
-
 		sf::SoundStream::initialize(sf::SoundRecorder::getChannelCount(), sf::SoundRecorder::getSampleRate());
 		sf::SoundStream::play();
 	}
@@ -139,7 +138,9 @@ int main()
 				std::cout << "new height: " << event.size.height << std::endl;
 			}
 			case sf::Event::KeyPressed: {
-				if (recorder.isRunning()) recorder.stop();
+				if (recorder.isRunning()) {
+					recorder.stop();
+				}
 				else recorder.start();
 			}
 			default:
